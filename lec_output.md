@@ -1,11 +1,16 @@
-<!DOCTYPE html><html id="index" lang="en">
-<head><meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<title>Untitled</title><link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/assets/css/styles.css">
-</head>
-<body style="background: rgb(31,31,31);">
-	<div class="test" markdown="1">## Relative:
+# All LEC regular season scenarios:
+    With accounting for the following tiebreaker rules:
+    1) by tied standings the team with the favored head-to-head 
+    record gets the higher standing
+    2) If that doesnt resolve the tie, the team with more wins
+    in the 2nd half of the split gets the higher placing.
+
+    If the tiebreaker is after 2) not solved tiebreaker game(s)
+    will be played but are not represented here.
+    Which leads to an uneven distribution of the places.
+    
+
+## Relative:
 | Team | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Playoff % |
 | ---  | --- | --- | --- | --- | ---  | --- | --- | --- | --- | --- | --- |
 | MAD  | 94.68 | 4.59 | 0.73 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 100.0 |
@@ -32,7 +37,9 @@
 | FNC  | 0 | 0 | 44 | 724 | 2,412 | 8,684 | 16,904 | 3,616 | 384 | 0 | 32,768 |
 | AST  | 0 | 0 | 0 | 0 | 0 | 224 | 3,712 | 8,768 | 20,064 | 0 | 32,768 |
 | SK  | 0 | 0 | 0 | 0 | 0 | 0 | 512 | 19,936 | 12,320 | 0 | 32,768 |
-| BDS  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 32,768 | 32,768 |</div>
-	<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-</html>
+| BDS  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 32,768 | 32,768 |
+
+
+[code on github](https://github.com/Lep333/All-league-scenarios)
+
+Process Time: 7.0s
